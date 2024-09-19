@@ -4,8 +4,8 @@ body {
     padding: 0;
 }
 header {
-    background-color: #333;
-    color: white;
+    background-color: #c6ced8;
+    color: rgb(14, 12, 12);
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -24,39 +24,39 @@ nav ul li {
     position: relative;
 }
 nav ul li a {
-    color: white;
+    color: rgb(15, 13, 13);
     padding: 10px 20px;
     text-decoration: none;
     display: block;
 }
 nav ul li a:hover {
-    background-color: #575757;
+    background-color: #b5dbf1;
 }
 nav ul li ul {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #333;
+    background-color: #b5dbf1;
     padding: 0;
 }
 nav ul li:hover ul {
-    display: block;
+    display:inline-table;
 }
 nav ul li ul li a {
     padding: 10px;
 }
 .auth-links a {
-    color: white;
+    color: rgb(10, 9, 9);
     padding: 10px 20px;
     text-decoration: none;
 }
 .auth-links a:hover {
-    background-color: #575757;
+    background-color: #b5dbf1;
 }
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #c6ced8;
+    color: rgb(15, 14, 14);
     text-align: center;
     padding: 10px 0;
     position: fixed;
